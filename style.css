@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+nav{
+    background-color: orange;
+    height: 80px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20pt;
+    font-weight:bolder;
+}
+nav div img{
+    height: 87px;
+    cursor: pointer;
+}
+ul{
+    width: 70%;
+     display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    transform: translateX(100vw);
+    transition: 2s;
+}
+
+.ativo{
+    /*display: flex; */
+    transform: translateX(0);
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+main img{
+    height: 500px;
+    cursor: pointer;
+}
+
+.roda-jequiti{
+    transform: rotate(360deg);
+    transition: 2s;
+}
